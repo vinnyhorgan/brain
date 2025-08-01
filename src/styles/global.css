@@ -1,0 +1,425 @@
+@import 'tailwindcss';
+
+/* https://fontsource.org/fonts/jetbrains-mono/install */
+/* jetbrains-mono-latin-wght-normal */
+@font-face {
+  font-family: 'JetBrains Mono Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 800;
+  src: url(@fontsource-variable/jetbrains-mono/files/jetbrains-mono-latin-wght-normal.woff2)
+    format('woff2-variations');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308,
+    U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@theme {
+  --color-accent: var(--theme-accent);
+  --color-foreground: var(--theme-foreground);
+  --color-background: var(--theme-background);
+  --color-blue: var(--theme-blue);
+  --color-green: var(--theme-green);
+  --color-red: var(--theme-red);
+  --color-yellow: var(--theme-yellow);
+  --color-magenta: var(--theme-magenta);
+  --color-cyan: var(--theme-cyan);
+  --default-font-family: var(--theme-font), monospace;
+}
+
+header {
+  view-transition-name: none;
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+body {
+  @apply transition-colors;
+  font-display: block;
+  font-size-adjust: ex-height 0.53;
+}
+
+/* hide katex-html */
+.katex-html {
+  @apply hidden;
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+button:focus-visible,
+a:focus-visible,
+input:active,
+textarea:active,
+select:active,
+button:active {
+  @apply outline-1 outline-accent outline-offset-2;
+}
+
+a.button {
+  @apply inline-flex text-accent border-3 border-accent/30 border-double py-1.5 px-3 whitespace-nowrap hover:bg-accent/10 rounded-xl transition-colors;
+}
+
+header button,
+header input {
+  @apply !outline-none;
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+article img {
+  @apply block max-w-full border-8 border-foreground/10 rounded-xl overflow-hidden mx-auto;
+
+  &[pixelated='true'] {
+    image-rendering: pixelated;
+  }
+}
+
+.prose {
+  @apply text-base/7;
+
+  code:not(.expressive-code code) {
+    @apply text-sm font-mono text-foreground/90 bg-foreground/5 px-2.5 py-1 rounded-lg;
+  }
+
+  div.expressive-code {
+    @apply my-8;
+
+    figure {
+      @apply border-2 border-foreground/8 !rounded-xl;
+      box-shadow: none !important;
+
+      &.has-title,
+      &.is-terminal {
+        --button-spacing: 30px !important;
+      }
+
+      figcaption {
+        border-radius: 10px 10px 0 0 !important;
+        background: transparent !important;
+        padding-block: 0 !important;
+        border: none !important;
+
+        &::after,
+        &::before {
+          border: none !important;
+        }
+
+        span.title {
+          @apply !text-foreground/90 !bg-foreground/8 text-center !border-b-2 !border-t-0 !border-r-0 !border-l-0 !border-foreground/10;
+          width: 100%;
+          font-family: var(--theme-font);
+          font-size: var(--ec-codeFontSize);
+          border-radius: 10px 10px 0 0 !important;
+          border-bottom-width: 0 !important;
+          padding: 0 12px !important;
+
+          &::after,
+          &::before {
+            border: none !important;
+          }
+        }
+      }
+
+      & > pre {
+        border-radius: 10px !important;
+        border: none !important;
+        scrollbar-width: thin;
+        background: transparent !important;
+      }
+    }
+  }
+
+  blockquote,
+  aside {
+    div.expressive-code {
+      @apply my-3;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply flex items-center my-6.5 font-semibold;
+
+    span[role='img'] {
+      @apply mx-2.5;
+    }
+
+    .heading-anchor {
+      @apply opacity-0 inline-block text-accent/10 ml-3 transition-opacity;
+    }
+
+    &::before {
+      @apply self-start;
+    }
+
+    &:hover .heading-anchor {
+      @apply !opacity-80;
+    }
+  }
+
+  h1 {
+    @apply text-2xl text-[var(--theme-h1)];
+
+    &::before {
+      @apply mr-2 content-['#'];
+    }
+
+    .heading-anchor svg {
+      @apply size-5.5;
+    }
+  }
+
+  h2 {
+    @apply text-2xl text-[var(--theme-h2)];
+
+    &::before {
+      @apply mr-2 content-['##'];
+    }
+
+    .heading-anchor svg {
+      @apply size-5.5;
+    }
+  }
+
+  h3 {
+    @apply text-xl text-[var(--theme-h3)];
+
+    &::before {
+      @apply mr-2 content-['###'];
+    }
+
+    .heading-anchor svg {
+      @apply size-5;
+    }
+  }
+
+  h4 {
+    @apply text-xl text-[var(--theme-h4)];
+
+    &::before {
+      @apply mr-2 content-['####'];
+    }
+
+    .heading-anchor svg {
+      @apply size-5;
+    }
+  }
+
+  h5 {
+    @apply text-lg text-[var(--theme-h5)];
+
+    &::before {
+      @apply mr-2 content-['#####'];
+    }
+
+    .heading-anchor svg {
+      @apply size-4.5;
+    }
+  }
+
+  h6 {
+    @apply text-lg text-[var(--theme-h6)];
+
+    &::before {
+      @apply mr-2 content-['######'];
+    }
+
+    .heading-anchor svg {
+      @apply size-4.5;
+    }
+  }
+
+  p,
+  ul,
+  ol,
+  img,
+  figure,
+  video,
+  table,
+  blockquote,
+  aside {
+    @apply my-6.5;
+  }
+
+  b,
+  strong,
+  th,
+  button {
+    @apply font-semibold;
+  }
+
+  a {
+    @apply text-[var(--theme-a)] underline hover:underline;
+
+    &.heading-anchor {
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  button {
+    @apply font-bold text-center text-accent py-1 px-4.5 border-4 border-accent rounded-xl cursor-pointer hover:bg-accent/15 transition-colors;
+  }
+
+  figure:not(.expressive-code figure) {
+    @apply block mx-auto rounded-xl py-2;
+
+    figcaption {
+      @apply text-center italic;
+    }
+  }
+
+  ul,
+  ol {
+    @apply ml-9.5;
+  }
+
+  li {
+    @apply pl-2 my-4 marker:text-[var(--theme-li)] marker:-left-5;
+  }
+
+  ul li {
+    @apply marker:content-['-'];
+  }
+
+  ol li {
+    @apply list-decimal;
+  }
+
+  hr {
+    @apply h-0.5 my-16 bg-[var(--theme-hr)] border-none rounded-xl;
+  }
+
+  blockquote {
+    @apply relative bg-foreground/6 rounded-xl py-6 px-8 before:content-['>'] before:block before:absolute before:text-accent before:font-bold before:left-3;
+
+    p:first-child {
+      @apply mt-0;
+    }
+
+    p:last-child {
+      @apply mb-0;
+    }
+  }
+
+  aside {
+    @apply bg-foreground/8 rounded-xl py-6 px-8;
+
+    p:first-child {
+      @apply mt-0;
+    }
+
+    p:last-child {
+      @apply mb-0;
+    }
+
+    p.admonition-title {
+      @apply mb-2 inline-block font-semibold before:content-['>'] before:mr-2;
+    }
+
+    p:not(.admonition-title):first-child {
+      @apply mt-0;
+    }
+
+    &[data-admonition-type='note'] {
+      @apply bg-blue/8;
+
+      p.admonition-title {
+        @apply text-blue;
+      }
+    }
+
+    &[data-admonition-type='tip'] {
+      @apply bg-green/8;
+
+      p.admonition-title {
+        @apply text-green;
+      }
+    }
+
+    &[data-admonition-type='important'] {
+      @apply bg-magenta/8;
+
+      p.admonition-title {
+        @apply text-magenta;
+      }
+    }
+
+    &[data-admonition-type='caution'] {
+      @apply bg-yellow/8;
+
+      p.admonition-title {
+        @apply text-yellow;
+      }
+    }
+
+    &[data-admonition-type='warning'] {
+      @apply bg-red/8;
+
+      p.admonition-title {
+        @apply text-red;
+      }
+    }
+  }
+
+  table,
+  th,
+  td {
+    @apply border-2 border-foreground/80 p-2.5;
+  }
+
+  th {
+    @apply uppercase text-left;
+  }
+
+  fieldset {
+    @apply inline-block border-2 border-accent/80 p-2.5 rounded-xl;
+  }
+
+  fieldset *:first-child {
+    @apply mb-0;
+  }
+
+  fieldset input,
+  fieldset select,
+  fieldset textarea,
+  fieldset label,
+  fieldset button {
+    @apply mt-3 w-full;
+  }
+
+  label {
+    @apply inline-block;
+  }
+
+  label input {
+    @apply mt-0;
+  }
+
+  input,
+  textarea,
+  select {
+    @apply bg-transparent text-foreground border-1 border-foreground p-2.5 rounded-xl;
+  }
+
+  input[type='checkbox'] {
+    @apply w-auto;
+  }
+
+  input[type='submit'] {
+    @apply border-accent cursor-pointer;
+  }
+}

@@ -1,0 +1,111 @@
+---
+import type { GetStaticPaths } from 'astro'
+import Layout from '@layouts/Layout.astro'
+import { dateString, getSortedPosts } from '@utils'
+import PostPreview from '@components/PostPreview.astro'
+import DividerText from '@components/DividerText.astro'
+import { getCollection, render } from 'astro:content'
+import PostAddendum from '@components/PostAddendum.astro'
+import TableOfContents from '@components/TableOfContents.astro'
+import { Image } from 'astro:assets'
+import GiscusLoader from '@components/GiscusLoader.astro'
+import siteConfig from '../../site.config'
+
+export const getStaticPaths = (async () => {
+  const posts = await getSortedPosts()
+  return posts.map((post, index) => {
+    const validPrev = index > 0
+    const validNext = index < posts.length - 1
+    const prev = validPrev ? posts[index - 1] : undefined
+    const next = validNext ? posts[index + 1] : undefined
+    return {
+      params: { slug: post.id },
+      props: { post, prev, next },
+    }
+  })
+}) satisfies GetStaticPaths
+
+const { post, prev, next } = Astro.props
+const postData = post.data
+const { headings, Content: PostContent } = await render(post)
+const addendum = await getCollection('addendum')
+let AddendumContent
+let addendumAvatarImage
+if (addendum.length > 0) {
+  const addendumEntry = addendum[0]
+  const { Content } = await render(addendumEntry)
+  AddendumContent = Content
+  addendumAvatarImage = addendumEntry.data.avatarImage
+}
+---
+
+<Layout
+  title={postData.title}
+  description={postData.description}
+  author={postData.author}
+  tags={postData.tags}
+>
+  <article class="max-w-full py-7.5" data-pagefind-body>
+    {
+      postData.coverImage && (
+        <Image
+          src={postData.coverImage.src}
+          alt={postData.coverImage.alt}
+          class="w-full rounded-xl mb-5"
+        />
+      )
+    }
+    <h1 class="mb-3 text-2xl text-[var(--theme-h1)] font-semibold">
+      # {postData.title}
+    </h1>
+    <div class="text-foreground/80 mb-2.5">
+      <time>{dateString(postData.published)}</time>
+      {
+        postData.author && (
+          <span class="before:content-['::'] before:inline-block before:mx-0.5">
+            {postData.author}
+          </span>
+        )
+      }
+    </div>
+    {
+      postData.tags && (
+        <div class="text-accent mb-5 lg:mb-0">
+          {postData.tags.map((tag) => (
+            <a
+              class="underline mr-4 inline-block"
+              href={`/tags/${encodeURIComponent(tag)}`}
+            >
+              #{tag}
+            </a>
+          ))}
+        </div>
+      )
+    }
+    <!-- <hr class="border-accent/10 border-2 rounded-xl hidden lg:block" /> -->
+    <div class="flex flex-col xl:gap-8 2xl:gap-18 xl:flex-row xl:items-start">
+      {headings.length > 0 && <TableOfContents headings={headings} />}
+      <div class="mb-5 xl:min-w-[648px] 2xl:min-w-[688px] prose">
+        <PostContent />
+      </div>
+    </div>
+  </article>
+  {
+    AddendumContent && (
+      <PostAddendum avatarImage={addendumAvatarImage}>
+        <AddendumContent />
+      </PostAddendum>
+    )
+  }
+  {(prev || next) && <DividerText text="more posts" />}
+  {prev && <PostPreview post={prev} />}
+  {next && <PostPreview post={next} />}
+  {
+    siteConfig.giscus && (
+      <>
+        <DividerText text="comments" />
+        <GiscusLoader />
+      </>
+    )
+  }
+</Layout>
