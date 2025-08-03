@@ -50,13 +50,6 @@ i'll only insert the ones who have had the biggest impact on me, or the list wou
 - [friedrich nietzsche](https://en.wikipedia.org/wiki/Friedrich_Nietzsche): one of the greatest men to ever live, has inspired me so much i could not even try to explain it.
 - [albert camus](https://en.wikipedia.org/wiki/Albert_Camus): some of his idea have brought some peace in my life.
 
-#### youtubers
-
-i watch too much youtube, sometimes something actually interesting comes up:
-
-- [exurb1a](https://www.youtube.com/@Exurb1a): this guy probably does drugs, but i'm so glad he does. every single one of his videos makes me question my place in the world, but in a good way.
-- [cgp grey](https://www.youtube.com/@CGPGrey): genius topics, amazingly executed.
-
 ## projects
 
 mostly github repositories:
@@ -64,6 +57,35 @@ mostly github repositories:
 - [love2d](https://love2d.org): this little game framework has been on mind since i discovered it, just a genius piece of software. i've always been inspired by its minimal design and just overall "vibe".
 - [pico8](https://www.lexaloffle.com/pico-8.php): bought this, never made a game with it. i find it barely usable, but has it had an impact on me? absolutely. having all the tools you need to make a game in one single tiny package? i'm very intrigued...
 - [devilutionx](https://devilutionx.com): modernized diablo 1 with friends during covid? hell yeah.
+
+## youtube channels
+
+i watch too much youtube, sometimes something actually interesting comes up:
+
+- [exurb1a](https://www.youtube.com/@Exurb1a): this guy probably does drugs, but i'm so glad he does. every single one of his videos makes me question my place in the world, but in a good way.
+- [cgp grey](https://www.youtube.com/@CGPGrey): genius topics, amazingly executed.
+- [tom scott](https://www.youtube.com/@TomScottGo): all kinds of videos, all interesting, with a touch of british...
+- [sisyphus55](https://www.youtube.com/@Sisyphus55): chill music, chill voice, existential topics, hell yeah!
+- [unsolicited advice](https://www.youtube.com/@unsolicitedadvice9198): the best advice you'll ever receive.
+- [crash course](https://www.youtube.com/@crashcourse): well made courses for many subjects.
+- [computerphile](https://www.youtube.com/@Computerphile): really well made computer science videos!
+- [soft white underbelly](https://www.youtube.com/@SoftWhiteUnderbelly): sometimes hard to watch, very painful and real interviews, thanks mark.
+- [veritasium](https://www.youtube.com/@veritasium): more mainstream, still great.
+
+## movies
+
+haven't seen to many, some are just great:
+
+- [pulp fiction](https://en.wikipedia.org/wiki/Pulp_Fiction): i don't know much about filmmaking, but man!
+- [american psycho](https://en.wikipedia.org/wiki/American_Psycho_(film)): much more than just the memes...
+- [the wolf of wall street](https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film)): stocks, drugs, margot robbie... this is perfect.
+- [fight club](https://en.wikipedia.org/wiki/Fight_Club): an insane exploration of the male psychology.
+- [taxi driver](https://en.wikipedia.org/wiki/Taxi_Driver): what loneliness can do to men, who create their own little world.
+- [goodfellas](https://en.wikipedia.org/wiki/Goodfellas): the best mafia movie?
+- [la vita è bella](https://it.wikipedia.org/wiki/La_vita_%C3%A8_bella): a great italian movie about world war 2
+- [scarface](https://en.wikipedia.org/wiki/Scarface_(1983_film)): the dream of every boy, from the bottom to the top.
+- [the social network](https://en.wikipedia.org/wiki/The_Social_Network): i despise zuckerberg, but this was great.
+- [heat](https://en.wikipedia.org/wiki/Heat_(1995_film)): al pacino and de niro...
 
 ## shows
 
@@ -92,6 +114,7 @@ i used to love video games, but now i only like to make them. every now and then
 - [slay the spire](https://store.steampowered.com/app/646570/Slay_the_Spire): this is just fun.
 - [disco elysium](https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut): haven't finished it yet... just brilliant.
 - [factorio](https://store.steampowered.com/app/427520/Factorio): maybe more mainstream nowadays, but i just had too much fun with it.
+- [the last of us](https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I): one of the few "big" games which left a mark.
 
 these are the ones i actually played, there is more which i really admire, even just mechanically, but have not had the patience to play just yet. these include:
 
