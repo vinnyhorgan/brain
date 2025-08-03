@@ -30,4 +30,75 @@ i have found a few more "contenders", each with their own set of issues:
 
 ## idea
 
-so... this is the plan
+so... this is the plan: i want a header-only, [stb](https://github.com/nothings/stb)-style library, which can open a window and draw pixels inside, is stable, well-written and has a similar api to glfw.
+
+this will be used as a foundation for most of my future projects and will be improved over time. i'll call it **cri** after an important person in my life, it's my base on top of which i'll build everything else.
+
+## windows
+
+ahh... windows. i hate it so much, but if you want your projects to be somewhat relevant you need to develop for it, so we'll start with it.
+
+to open the window we will use the good old [win32](https://learn.microsoft.com/en-us/windows/win32/api) api. to render graphics on the screen we will use the [gdi](https://learn.microsoft.com/en-gb/windows/win32/gdi/windows-gdi) api. this is the simplest and most low level possible way of rendering to a window in windows. our program could most likely compile on windows nt 3.1 using the borland c++ compiler.
+
+enough chat, let's start with windowing. this is the program we want to make work for now:
+
+```c
+#define CRI_IMPLEMENTATION
+#include "cri.h"
+
+int main() {
+  if (!cri_init()) {
+    return 1;
+  }
+
+  cri_window* window = cri_create_window(640, 480, "hello cri");
+  if (!window) {
+    cri_terminate();
+    return 1;
+  }
+
+  while (!cri_window_should_close(window)) {
+    cri_poll_events();
+  }
+
+  cri_destroy_window(window);
+  cri_terminate();
+
+  return 0;
+}
+```
+
+if you know the glfw api at all, this should look extremely familiar. it is pretty much 1:1 how you would open a window using it. the ```cri.h``` header is used as a standard stb library.
+
+i'll show you the windows implementation of the api. the init function is pretty straight-forward.
+
+```c
+bool cri_platform_init(void) {
+  SetProcessDPIAware();
+
+  // register window class
+  WNDCLASSEXW wc;
+  ZeroMemory(&wc, sizeof(wc));
+  wc.cbSize = sizeof(wc);
+  wc.style = CS_HREDRAW | CS_VREDRAW | CS_OWNDC;
+  wc.lpfnWndProc = window_proc;
+  wc.hInstance = GetModuleHandleW(NULL);
+  wc.hCursor = LoadCursorW(NULL, IDC_ARROW);
+  wc.lpszClassName = L"cri";
+
+  wc.hIcon = LoadImageW(GetModuleHandleW(NULL), L"CRI_ICON", IMAGE_ICON, 0, 0, LR_DEFAULTSIZE | LR_SHARED);
+  if (!wc.hIcon) {
+    wc.hIcon = LoadImageW(NULL, IDI_APPLICATION, IMAGE_ICON, 0, 0, LR_DEFAULTSIZE | LR_SHARED);
+  }
+
+  if (!RegisterClassExW(&wc)) {
+    return false;
+  }
+
+  // setup timer
+  QueryPerformanceFrequency((LARGE_INTEGER*)&state.timer_frequency);
+  timeBeginPeriod(1);
+
+  return true;
+}
+```

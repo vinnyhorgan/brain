@@ -8,7 +8,7 @@ tags: ["cool shit"]
 
 humans. some are cool, some not. but there is one undeniable truth, we are an extremely fascinating species, capable of doing some really insane stuff. i try to appreciate all areas of life, but i'm definitely biased towards anything that has to do with computers.
 
-i've one big problem: i don't store anything. on my computer there is pretty much nothing, all my projects are saved on github and that's about it. i don't have photos, memories of any kind. i dread thinking about how many things i've lost in the past, cause i never made it a habit to save, store, create memories. as a perfectionist, every new idea is better than previous ones.
+i've got one big problem: i don't store anything. on my computer there is pretty much nothing, all my projects are saved on github and that's about it. i don't have photos, memories of any kind. i dread thinking about how many things i've lost in the past, cause i never made it a habit to save, store, create memories. as a perfectionist, every new idea is better than previous ones.
 
 i recognize this idea barely makes any sense, since all generated ideas are based off previous ones. i have this thing: once something is old, it's not good enough. i want to end this, everything i interact with is part of my journey, i want to document.
 
@@ -35,12 +35,14 @@ generic list of people who inspire me and i'm glad they exist/ed.
 
 any cool project goes here (mostly programming), there are... many. i'll focus on the more niche ones.
 
-- [love2d](https://love2d.org): this little game framework has been on mind since i discovered it, just a genius piece of software. i've always been inspired by its minimal design and just overall "vibe".
+- [love2d](https://love2d.org): this little game framework has been on my mind since i discovered it, just a genius piece of software. i've always been inspired by its minimal design and just overall "vibe".
 - [pico8](https://www.lexaloffle.com/pico-8.php): bought this, never made a game with it. i find it barely usable, but has it had an impact on me? absolutely. having all the tools you need to make a game in one single tiny package? i'm very intrigued...
 - [raylib](https://www.raylib.com): games programming library by a great guy, have made a couple PRs, learned a lot from the code.
 - [devilutionx](https://devilutionx.com): modernized diablo 1 with friends during covid? hell yeah.
 - [crafting interpreters](https://craftinginterpreters.com/contents.html): great web book about programming languages.
 - [sokol](https://github.com/floooh/sokol): really cool header only c libraries.
+
+---
 
 ## blogs
 
