@@ -12,40 +12,28 @@ i've one big problem: i don't store anything. on my computer there is pretty muc
 
 i recognize this idea barely makes any sense, since all generated ideas are based off previous ones. i have this thing: once something is old, it's not good enough. i want to end this, everything i interact with is part of my journey, i want to document.
 
-here is a list of whatever i think is cool (mostly computer stuff), enjoy!
+here is a list of whatever i think is cool, enjoy!
 
 ## people
 
 i'll only insert the ones who have had the biggest impact on me, or the list would be endless.
 
-#### programmers
+### programmers
 
 - [rxi](https://github.com/rxi): i have no idea who this guy is, but i'd like to meet him one day. he's been such an inspiration for me that it's even hard to explain. from him i learnt that code is art. this guy has such a deep passion for writing tiny and amazing c programs. his code is amazingly crafted and pure. i have read most of his repositories, just amazing.
 - [dominic szablewski](https://github.com/phoboslab): this guy is insane, he casually invented his own image format, then thought it wasn't enought and made an audio format. i love his blog, full of fun experiments, such a big inspiration for me.
 - [david reid](https://github.com/mackron): i love his audio libraries, so much love has gone into them.
 - [serge zaitsev](https://github.com/zserge): i absolutely love this guys blog, full of interesting articles.
-- [jda](https://github.com/jdah): love his crazy youtube videos and challenges, just pure genius of a programmer.
-- [salvatore sanfilippo](https://github.com/antirez): creator of redis and italian like me, he posts vlogs on youtube talking about life. i love listening to him.
-- [ben eater](https://github.com/beneater): his breadboard computer series is one of the reasons i love computers today. just an absolutely chill guy, extremely knowledgeable and a great teacher.
 - [andre weissflog](https://github.com/floooh): brilliant programmer, loves emulators like me. has made excellent contributions to the c library space.
 - [mike pall](https://github.com/mikepall): a robot from space, the creator of luajit, an insane inspiration.
 - [bob nystrom](https://github.com/munificent): creator of the "crafting interpreters" book, great developer, learnt a lot from him.
-- [javidx9](https://github.com/onelonecoder): mysterious bearded and knowledgeable man. great videos on youtube.
-- [luke smith](https://github.com/lukesmithxyz): through his videos i've gained a huge appreciacion of philosophy regarding computers and have gotten many new ideas.
 - [ramon santamaria](https://github.com/raysan5): what can i say, huge huge inspiration for me, raylib has been a foundational component of my learning.
 - [jonathan blow](https://x.com/jonathan_blow): absolute genius, game developer, philosopher, all around brilliant guy. i really enjoy his youtube videos and hot takes.
 - [john carmack](https://x.com/id_aa_carmack): not much to say to be honest...
 - [fabrice bellard](https://bellard.org): creator of ffmpeg, quickjs, tcc, qemu and many more. what can i say? a legend.
 - [chris sawyer](https://www.chrissawyergames.com): created one of the best games ever in x86 assembly... anything to add?
 
-#### musicians
-
-- [thasup](https://www.youtube.com/@thasup): this young italian producer has meant a lot to me over the past years. he's helped me go through some tough times.
-- [officina della camomilla](https://www.youtube.com/channel/UCDDwAuqg4iiYTH21Irr7nGw): this italian indie duo has brought me so much joy.
-- [bob dylan](https://www.youtube.com/@BobDylan): not much to say here either...
-- [radiohead](https://www.youtube.com/@Radiohead): so much passion, so real.
-
-#### philosophers
+### philosophers
 
 - [friedrich nietzsche](https://en.wikipedia.org/wiki/Friedrich_Nietzsche): one of the greatest men to ever live, has inspired me so much i could not even try to explain it.
 - [albert camus](https://en.wikipedia.org/wiki/Albert_Camus): some of his idea have brought some peace in my life.
@@ -57,6 +45,22 @@ mostly github repositories:
 - [love2d](https://love2d.org): this little game framework has been on mind since i discovered it, just a genius piece of software. i've always been inspired by its minimal design and just overall "vibe".
 - [pico8](https://www.lexaloffle.com/pico-8.php): bought this, never made a game with it. i find it barely usable, but has it had an impact on me? absolutely. having all the tools you need to make a game in one single tiny package? i'm very intrigued...
 - [devilutionx](https://devilutionx.com): modernized diablo 1 with friends during covid? hell yeah.
+
+---
+
+## music
+
+if you meet me, there is a high chance i'm listening to music in that precise moment. any time of the day i've got headphones on. i know hundreds of bands, i'll just list the ones who've meant the most.
+
+- [thasup](https://www.youtube.com/@thasup): this young italian producer has meant a lot to me over the past years. he's helped me go through some tough times.
+- [officina della camomilla](https://www.youtube.com/channel/UCDDwAuqg4iiYTH21Irr7nGw): this italian indie duo has brought me so much joy.
+- [bob dylan](https://www.youtube.com/@BobDylan): not much to say here either...
+- [radiohead](https://www.youtube.com/@Radiohead): so much passion, so real.
+- [arctic monkeys](https://www.youtube.com/@arcticmonkeys): when you're sad there is nothing better than them.
+- [bob marley](https://www.youtube.com/@BobMarley): nobody like him, "just a chill guy".
+- [coldplay](https://www.youtube.com/@coldplay): if i had to choose one band to go see a concert it would be them.
+- [dayglow](https://www.youtube.com/@Dayglowband): contagious smile, quirky videos, great music.
+- [mgmt](https://www.youtube.com/@whoismgmt): a couple boys with a dream.
 
 ## youtube channels
 
@@ -71,10 +75,16 @@ i watch too much youtube, sometimes something actually interesting comes up:
 - [computerphile](https://www.youtube.com/@Computerphile): really well made computer science videos!
 - [soft white underbelly](https://www.youtube.com/@SoftWhiteUnderbelly): sometimes hard to watch, very painful and real interviews, thanks mark.
 - [veritasium](https://www.youtube.com/@veritasium): more mainstream, still great.
+- [luke smith](https://www.youtube.com/@LukeSmithxyz): bald open source supporter, loves philosophy and rants in the woods.
+- [javidx9](https://www.youtube.com/@javidx9): bearded wise c++ teacher.
+- [the cherno](https://www.youtube.com/@TheCherno): passionate videos about programming.
+- [jdh](https://www.youtube.com/@jdh): really cool (and autistic), computer videos.
+- [ben eater](https://www.youtube.com/@BenEater): crazy good teacher, breadboard computer series is top content.
+- [salvatore sanfilippo](https://www.youtube.com/@antirez): the redis' creator vlog channel.
 
 ## movies
 
-haven't seen to many, some are just great:
+haven't seen too many, some are just great:
 
 - [pulp fiction](https://en.wikipedia.org/wiki/Pulp_Fiction): i don't know much about filmmaking, but man!
 - [american psycho](https://en.wikipedia.org/wiki/American_Psycho_(film)): much more than just the memes...

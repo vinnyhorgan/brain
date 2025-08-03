@@ -2,8 +2,8 @@
 title: "hello world"
 published: 2025-08-1
 draft: false
-description: 'the journey begins...'
-tags: ['intro']
+description: "the journey begins..."
+tags: ["intro"]
 ---
 
 i've finally decided, i really want to start this blog. it's something i've been putting off for ages, but with my recent 21'st birthday i've had some time to think. being a perfectionist is not easy, it consumes you from the inside, the need to be perfect every single time makes doing pretty much anything a daunting task.
@@ -21,6 +21,8 @@ i spend way too much time on github, but i can also enjoy a nice long walk. i li
 i want to give this a shot, try to just press that publish button every now and then. i don't have much to show for myself no matter the thousands and thousands of hours i've spent looking at code in my life. i'm full of ideas, some better than others, but i never seem to be able to fully execute on them. maybe having some sort of accountability might help mitigate this...
 
 my dream has always been having a youtube channel, but i've always gotten stuck in the video creation phase since it's something i genuinely don't enjoy doing. but you know what i like doing? writing. i write all the time. i don't think i'm too bad at it... i also like to think i can be a good teacher some day.
+
+i'll give myself one rule: i can edit previous articles to fix form or presentation, but i cannot edit the content itself. if i change idea on something i'll need to make a new article.
 
 well enough ranting for today, i know how to make websites, i like writing, i have stuff to share with the world... welcome to my blog.
 
