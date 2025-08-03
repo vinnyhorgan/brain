@@ -2,19 +2,21 @@
 title: "cool shit"
 published: 2025-08-1
 draft: false
-description: 'just a list of cool shit'
-tags: ['cool shit']
+description: "just a list of cool shit"
+tags: ["cool shit"]
 ---
 
 humans. some are cool, some not. but there is one undeniable truth, we are an extremely fascinating species, capable of doing some really insane stuff. i try to appreciate all areas of life, but i'm definitely biased towards anything that has to do with computers.
 
 i've one big problem: i don't store anything. on my computer there is pretty much nothing, all my projects are saved on github and that's about it. i don't have photos, memories of any kind. i dread thinking about how many things i've lost in the past, cause i never made it a habit to save, store, create memories. as a perfectionist, every new idea is better than previous ones.
 
-i recognize this idea barely makes any sense, since all generated ideas are based off previous ones. i have this thing, once something is old, it's not good enough. i want to end this, everything i interact with is part of my journey, i want to document.
+i recognize this idea barely makes any sense, since all generated ideas are based off previous ones. i have this thing: once something is old, it's not good enough. i want to end this, everything i interact with is part of my journey, i want to document.
 
-here is a list of whatever i think is cool (mostly computer stuff), enjoy.
+here is a list of whatever i think is cool (mostly computer stuff), enjoy!
 
 ## people
+
+i'll only insert the ones who have had the biggest impact on me, or the list would be endless.
 
 #### programmers
 
@@ -33,6 +35,8 @@ here is a list of whatever i think is cool (mostly computer stuff), enjoy.
 - [ramon santamaria](https://github.com/raysan5): what can i say, huge huge inspiration for me, raylib has been a foundational component of my learning.
 - [jonathan blow](https://x.com/jonathan_blow): absolute genius, game developer, philosopher, all around brilliant guy. i really enjoy his youtube videos and hot takes.
 - [john carmack](https://x.com/id_aa_carmack): not much to say to be honest...
+- [fabrice bellard](https://bellard.org): creator of ffmpeg, quickjs, tcc, qemu and many more. what can i say? a legend.
+- [chris sawyer](https://www.chrissawyergames.com): created one of the best games ever in x86 assembly... anything to add?
 
 #### musicians
 
@@ -44,8 +48,14 @@ here is a list of whatever i think is cool (mostly computer stuff), enjoy.
 #### philosophers
 
 - [friedrich nietzsche](https://en.wikipedia.org/wiki/Friedrich_Nietzsche): one of the greatest men to ever live, has inspired me so much i could not even try to explain it.
+- [albert camus](https://en.wikipedia.org/wiki/Albert_Camus): some of his idea have brought some peace in my life.
 
-there are many more i'm leaving out for now, either because too mainstream or they haven't come to mind yet. i'm trying to only list the ones who made the greatest impact.
+#### youtubers
+
+i watch too much youtube, sometimes something actually interesting comes up:
+
+- [exurb1a](https://www.youtube.com/@Exurb1a): this guy probably does drugs, but i'm so glad he does. every single one of his videos makes me question my place in the world, but in a good way.
+- [cgp grey](https://www.youtube.com/@CGPGrey): genius topics, amazingly executed.
 
 ## projects
 
@@ -53,9 +63,40 @@ mostly github repositories:
 
 - [love2d](https://love2d.org): this little game framework has been on mind since i discovered it, just a genius piece of software. i've always been inspired by its minimal design and just overall "vibe".
 - [pico8](https://www.lexaloffle.com/pico-8.php): bought this, never made a game with it. i find it barely usable, but has it had an impact on me? absolutely. having all the tools you need to make a game in one single tiny package? i'm very intrigued...
+- [devilutionx](https://devilutionx.com): modernized diablo 1 with friends during covid? hell yeah.
 
 ## shows
+
+not a big fan of watching tv, but some things just need to be seen!
 
 - [breaking bad](https://en.wikipedia.org/wiki/Breaking_Bad): one of the greatest shows of all time for a reason.
 - [the end of the f***ing world](https://en.wikipedia.org/wiki/The_End_of_the_F***ing_World): i found this absolutely brilliant, just pure art.
 - [dexter](https://en.wikipedia.org/wiki/Dexter_(TV_series)): insane character, so easy to emphatize with him and understand his reasoning. the feeling of loneliness and all.
+- [the midnight gospel](https://en.wikipedia.org/wiki/The_Midnight_Gospel): an absolutely brilliant animated show, approaches the human problems in a very special way.
+- [mr robot](https://en.wikipedia.org/wiki/Mr._Robot): crazy story, the computer scenes are also accurate!
+
+i haven't seen those, but really want to some day:
+
+- [black mirror](https://en.wikipedia.org/wiki/Black_Mirror): tech dystopia? i'm in.
+
+## games
+
+i used to love video games, but now i only like to make them. every now and then though... some gem, just pops up. i won't list pokemon, minecraft and so on for obvious reasons.
+
+- [firewatch](https://store.steampowered.com/app/383870/Firewatch): this game made me realize that art can be anything. not just paintings and poems, it's about the emotions...
+- [outer wilds](https://store.steampowered.com/app/753640/Outer_Wilds): no rules, no tutorial. just explore, use your imagination. so primal yet satisfying.
+- [a short hike](https://store.steampowered.com/app/1055540/A_Short_Hike): i have no idea how many times i played this game, but i'd play it just one more time.
+- [hotline miami](https://store.steampowered.com/app/219150/Hotline_Miami): pirate games, but not this one please. it just hits different, especially level 3.
+- [hyper light drifter](https://store.steampowered.com/app/257850/Hyper_Light_Drifter): amazing art, meaning. the developer has a crazy story.
+- [papers, please](https://store.steampowered.com/app/239030/Papers_Please): looks silly in the beginning, but then...
+- [slay the spire](https://store.steampowered.com/app/646570/Slay_the_Spire): this is just fun.
+- [disco elysium](https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut): haven't finished it yet... just brilliant.
+- [factorio](https://store.steampowered.com/app/427520/Factorio): maybe more mainstream nowadays, but i just had too much fun with it.
+
+these are the ones i actually played, there is more which i really admire, even just mechanically, but have not had the patience to play just yet. these include:
+
+- [caves of qud](https://store.steampowered.com/app/333640/Caves_of_Qud): oh my god, this is a programmers dream, just have to work on my attention span...
+- [dwarf fortress](https://store.steampowered.com/app/975370/Dwarf_Fortress): two legendary brothers, make a legendary game, just not for me.
+- [noita](https://store.steampowered.com/app/881100/Noita): every single pixel is physically simulated... what??
+- [rain world](https://store.steampowered.com/app/312520/Rain_World): extremely advanced entity ai, what more do you want.
+- [shenzen io](https://store.steampowered.com/app/504210/SHENZHEN_IO): all of his games look insane, but this one in particular.
