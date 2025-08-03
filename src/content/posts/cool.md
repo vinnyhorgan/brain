@@ -16,37 +16,42 @@ here is a list of whatever i think is cool, enjoy!
 
 ## people
 
-i'll only insert the ones who have had the biggest impact on me, or the list would be endless.
+generic list of people who inspire me and i'm glad they exist/ed.
 
 ### programmers
 
-- [rxi](https://github.com/rxi): i have no idea who this guy is, but i'd like to meet him one day. he's been such an inspiration for me that it's even hard to explain. from him i learnt that code is art. this guy has such a deep passion for writing tiny and amazing c programs. his code is amazingly crafted and pure. i have read most of his repositories, just amazing.
-- [dominic szablewski](https://github.com/phoboslab): this guy is insane, he casually invented his own image format, then thought it wasn't enought and made an audio format. i love his blog, full of fun experiments, such a big inspiration for me.
-- [david reid](https://github.com/mackron): i love his audio libraries, so much love has gone into them.
-- [serge zaitsev](https://github.com/zserge): i absolutely love this guys blog, full of interesting articles.
-- [andre weissflog](https://github.com/floooh): brilliant programmer, loves emulators like me. has made excellent contributions to the c library space.
 - [mike pall](https://github.com/mikepall): a robot from space, the creator of luajit, an insane inspiration.
-- [bob nystrom](https://github.com/munificent): creator of the "crafting interpreters" book, great developer, learnt a lot from him.
-- [ramon santamaria](https://github.com/raysan5): what can i say, huge huge inspiration for me, raylib has been a foundational component of my learning.
 - [jonathan blow](https://x.com/jonathan_blow): absolute genius, game developer, philosopher, all around brilliant guy. i really enjoy his youtube videos and hot takes.
-- [john carmack](https://x.com/id_aa_carmack): not much to say to be honest...
+- [john carmack](https://x.com/id_aa_carmack): creator of doom and quake, not much to say...
 - [fabrice bellard](https://bellard.org): creator of ffmpeg, quickjs, tcc, qemu and many more. what can i say? a legend.
 - [chris sawyer](https://www.chrissawyergames.com): created one of the best games ever in x86 assembly... anything to add?
 
 ### philosophers
 
 - [friedrich nietzsche](https://en.wikipedia.org/wiki/Friedrich_Nietzsche): one of the greatest men to ever live, has inspired me so much i could not even try to explain it.
-- [albert camus](https://en.wikipedia.org/wiki/Albert_Camus): some of his idea have brought some peace in my life.
+- [albert camus](https://en.wikipedia.org/wiki/Albert_Camus): some of his ideas have brought some peace in my life.
 
 ## projects
 
-mostly github repositories:
+any cool project goes here (mostly programming), there are... many. i'll focus on the more niche ones.
 
 - [love2d](https://love2d.org): this little game framework has been on mind since i discovered it, just a genius piece of software. i've always been inspired by its minimal design and just overall "vibe".
 - [pico8](https://www.lexaloffle.com/pico-8.php): bought this, never made a game with it. i find it barely usable, but has it had an impact on me? absolutely. having all the tools you need to make a game in one single tiny package? i'm very intrigued...
+- [raylib](https://www.raylib.com): games programming library by a great guy, have made a couple PRs, learned a lot from the code.
 - [devilutionx](https://devilutionx.com): modernized diablo 1 with friends during covid? hell yeah.
+- [crafting interpreters](https://craftinginterpreters.com/contents.html): great web book about programming languages.
+- [sokol](https://github.com/floooh/sokol): really cool header only c libraries.
 
----
+## blogs
+
+just some i like to read every now and then:
+
+- [zserge](https://zserge.com): really cool projects, we share a similar "minimal" philosophy.
+- [phoboslab](https://phoboslab.org): brilliant programmer, awesome projects and write-ups!
+- [rxi](https://rxi.github.io): i have no idea who this guy is, but i'd like to meet him one day. from him i learnt that code is art. his code is amazingly crafted and pure. i have read most of his repositories, just amazing.
+- [100r](https://100r.co/site/home.html): this guy and i are connected in some weird way...
+- [red blob games](https://www.redblobgames.com): amazing algorithm visualizations and explanations!
+- [fabien sanglard](https://fabiensanglard.net): juicy retro tech writeups.
 
 ## music
 
