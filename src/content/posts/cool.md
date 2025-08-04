@@ -42,8 +42,6 @@ any cool project goes here (mostly programming), there are... many. i'll focus o
 - [crafting interpreters](https://craftinginterpreters.com/contents.html): great web book about programming languages.
 - [sokol](https://github.com/floooh/sokol): really cool header only c libraries.
 
----
-
 ## blogs
 
 just some i like to read every now and then:
@@ -88,6 +86,18 @@ i watch too much youtube, sometimes something actually interesting comes up:
 - [jdh](https://www.youtube.com/@jdh): really cool (and autistic), computer videos.
 - [ben eater](https://www.youtube.com/@BenEater): crazy good teacher, breadboard computer series is top content.
 - [salvatore sanfilippo](https://www.youtube.com/@antirez): the redis' creator vlog channel.
+- [healthy gamer gg](https://www.youtube.com/@HealthyGamerGG): greate men mental health content.
+- [low level](https://www.youtube.com/@LowLevelTV): only this guy can create c videos which appeal to so many people.
+- [noclip](https://www.youtube.com/@NoclipDocs): extremely high quality documentaries about video games and the process behind them.
+- [ahoy](https://www.youtube.com/@XboxAhoy): this guy is an absolute artist, super interesting retro topics.
+- [watt](https://www.youtube.com/@WattDesigns): hyper-passionate indie game developer, love his game.
+- [primer](https://www.youtube.com/@PrimerBlobs): biology simulations? i'm in.
+- [people make games](https://www.youtube.com/@PeopleMakeGames): well made interviews and essays on games.
+- [tantan](https://www.youtube.com/@Tantandev): the energy this indie developer gives me is unmatched!
+- [the 8-bit guy](https://www.youtube.com/@The8BitGuy): i love this old man, he made me fall in love with retro tech.
+- [thin matrix](https://www.youtube.com/@ThinMatrix): chill indie dev, loves plants.
+- [lgr](https://www.youtube.com/@LGR): more tasty retro reviews, by the best host.
+- [nakey jakey](https://www.youtube.com/@NakeyJakey): the funniest youtuber, by far.
 
 ## movies
 
