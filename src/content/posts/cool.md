@@ -113,6 +113,7 @@ haven't seen too many, some are just great:
 - [scarface](https://en.wikipedia.org/wiki/Scarface_(1983_film)): the dream of every boy, from the bottom to the top.
 - [the social network](https://en.wikipedia.org/wiki/The_Social_Network): i despise zuckerberg, but this was great.
 - [heat](https://en.wikipedia.org/wiki/Heat_(1995_film)): al pacino and de niro...
+- [la la land](https://en.wikipedia.org/wiki/La_La_Land): i enjoyed every minute of this musical, and the ending...
 
 ## shows
 
@@ -123,6 +124,8 @@ not a big fan of watching tv, but some things just need to be seen!
 - [dexter](https://en.wikipedia.org/wiki/Dexter_(TV_series)): insane character, so easy to emphatize with him and understand his reasoning. the feeling of loneliness and all.
 - [the midnight gospel](https://en.wikipedia.org/wiki/The_Midnight_Gospel): an absolutely brilliant animated show, approaches the human problems in a very special way.
 - [mr robot](https://en.wikipedia.org/wiki/Mr._Robot): crazy story, the computer scenes are also accurate!
+- [rick and morty](https://en.wikipedia.org/wiki/Rick_and_Morty): love it or hate it, there is undeniable genius behind the writing of this show, exploring the vast world of human fantasies.
+- [normal people](https://en.wikipedia.org/wiki/Normal_People_(TV_series)): one of the best representations of real relationships.
 
 i haven't seen those, but really want to some day:
 
